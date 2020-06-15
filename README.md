@@ -1,8 +1,5 @@
 # Markdown-Cheat-sheet-in-Korean
-
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
-
-Note that there is also a [Cheatsheet specific to Markdown Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) if that's what you're looking for. You can also check out [more Markdown tools](https://github.com/adam-p/markdown-here/wiki/Other-Markdown-Tools).
+Check [Original Version](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 **목차**
 
@@ -26,7 +23,7 @@ Note that there is also a [Cheatsheet specific to Markdown Here](https://github.
 
 [구분선](#구분선)
 
-[선끊기](#선끊기)
+[줄넘기기](#줄넘기기)
 
 [유튜브](#유튜브)
 
@@ -145,8 +142,6 @@ Some text to show that the reference links can follow later.
 
 아니면 참조 링크 그 자체로 링크 할 수 있습니다. [네이버].
 
-Some text to show that the reference links can follow later.
-
 [네이버]: http://www.naver.com
 
 이미지
@@ -178,20 +173,152 @@ print(s)
 '''
 언어를 사용하지 명시하지 않고 표시합니다.
 html을 표시할 때 사용됩니다.
-**tag**
+**tag**<br>br
 '''
 ```
 
 
+```javascript
+var s = "자스";
+alert(s);
+```
+
+```python
+s = "파이썬"
+print(s)
+```
+
+```
+언어를 사용하지 명시하지 않고 표시합니다.
+html을 표시할 때 사용됩니다.
+**tag**<br>br
+```
+
 표
 ----- 
+```
+열 구분 표시(------)는 정렬 표기에도 이용됩니다.
+
+| 표            | is             | 편안  |
+| ------------- |:-------------:| -----:|
+| 3열은          | 오른쪽 정렬 | $1600 |
+| 2열은          | 중앙절렬    |   $12 |
+| 파이썬은        | 멋지다      |    $1 |
+
+열 구분 표시는 3개 이상의 -(대쉬)를 가지고 있어야 합니다.
+바깥 |(파이프)는 선택적입니다.
+```
+열 구분 표시(------)는 정렬 표기에도 이용됩니다.
+
+| 표            | is             | 편안  |
+| ------------- |:-------------:| -----:|
+| 3열은          | 오른쪽 정렬 | $1600 |
+| 2열은          | 중앙절렬    |   $12 |
+| 파이썬은        | 멋지다      |    $1 |
+
+열 구분 표시는 3개 이상의 -(대쉬)를 가지고 있어야 합니다.
+바깥 |(파이프)는 선택적입니다.
+
 블록강조
 ----- 
+```
+> 블록 강조는 이메일 답장에서 자주 사용되는 양식입니다.
+> 이 줄도 이전의 블록 강조에 이어씁니다.
+
+블록 나누기!
+
+> 이 블록은 매우 긴 줄이고 모든 글자가 블록안에 들어가고 있습니다. 계속 작성해서 이것이 길어도 모두를 위해 포장(?)할 수 있는지 확인하세요. 이건 *블록강조에* 전부 들어가고 있습니다.
+```
+> 블록 강조는 이메일 답장에서 자주 사용되는 양식입니다.
+> 이 줄도 이전의 블록 강조에 이어씁니다.
+
+블록 나누기!
+
+> 이 블록은 매우 긴 줄이고 모든 글자가 블록안에 들어가고 있습니다. 계속 작성해서 이것이 길어도 모두를 위해 포장(?)할 수 있는지 확인하세요. 이건 **블록강조**에 전부 들어가고 있습니다.
+
 HTML
 ----- 
+여러분은 HTML 코드를 마크다운에 넣을 수 있습니다. 잘 동작 할 것입니다.
+```
+<dl>
+  <dt>정의 목록</dt>
+  <dd>때때로 쓰는 무언가.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>**아주** 잘 동작 하지 *않*습니다. HTML <em>tags</em>를 써보세요.</dd>
+</dl>
+```
+<dl>
+  <dt>정의 목록</dt>
+  <dd>때때로 쓰는 무언가.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>**정말** 잘 동작 하지 *않*습니다. HTML <em>tags</em>를 써보세요.</dd>
+</dl>
+
 구분선
 ----- 
-선끊기
+```
+3개 이상은 써주셔야 해요.
+
+---
+
+대쉬들
+
+***
+
+별표들
+
+___
+
+언더대쉬들
+```
+
+3개 이상은 써주셔야 해요.
+
+---
+
+대쉬들
+
+***
+
+별표들
+
+___
+
+언더대쉬들
+
+줄넘기기
 ----- 
+
+```
+여기에 줄이 몇 개 있습니다.
+
+이 줄과 이전 줄 사이에 한 줄 여백이 있습니다. 그러면 문단은 이렇게 나눠집니다.
+
+이것도 나눠진 문단인데요. 그러나...
+이 줄은 이전 줄 사이에 한 줄 여백이 없습니다. 그러면 같은 줄에 써집니다.
+
+그러나 위의 사례에서 첫번째 줄 끝에 공백을 두개 추가하면요.  
+줄은 넘겨집니다만 문단은 나눠지지 않습니다.
+
+
+```
 유튜브
 -----
+
+유튜브 영상을 바로 넣을 수는 없습니다만 
+유튜브 영상 링크를 가진 이미지는 만들 수 있습니다.
+```
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=v78CPJVrl8E
+" target="_blank"><img src="http://img.youtube.com/vi/v78CPJVrl8E/0.jpg" 
+alt="LOONA/OEC Sweet Crazy Love" width="240" height="480" border="10" />
+</a>
+
+-----
+
+License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
