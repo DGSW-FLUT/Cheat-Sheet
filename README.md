@@ -1,31 +1,12 @@
 # Markdown-Cheat-sheet-in-Korean
 Check [Original Version](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-**목차**
-
-[헤더](#헤더)
-
-[강조](#강조)
-
-[열거](#열거)
-
-[링크](#링크)
-
-[이미지](#이미지)
-
-[코드](#코드)
-
-[표](#표)
-
-[블록강조](#블록강조)
-
-[HTML](#HTML)
-
-[구분선](#구분선)
-
-[줄넘기기](#줄넘기기)
-
-[유튜브](#유튜브)
+||**목차**||
+|:---:|:---:|:---:|
+|[헤더](#헤더)|[강조](#강조)|[열거](#열거)|
+|[링크](#링크)|[이미지](#이미지)|[코드](#코드)|
+|[표](#표)|[블록강조](#블록강조)|[html](#html)|
+|[구분선](#구분선)|[줄넘기기](#줄넘기기)|[유튜브](#유튜브)|
 
 헤더
 -----
@@ -236,7 +217,7 @@ html을 표시할 때 사용됩니다.
 
 > 이 블록은 매우 긴 줄이고 모든 글자가 블록안에 들어가고 있습니다. 계속 작성해서 이것이 길어도 모두를 위해 포장(?)할 수 있는지 확인하세요. 이건 **블록강조**에 전부 들어가고 있습니다.
 
-HTML
+html
 ----- 
 여러분은 HTML 코드를 마크다운에 넣을 수 있습니다. 잘 동작 할 것입니다.
 ```
@@ -316,7 +297,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=v78CPJVrl8E
 " target="_blank"><img src="http://img.youtube.com/vi/v78CPJVrl8E/0.jpg" 
-alt="LOONA/OEC Sweet Crazy Love" width="240" height="480" border="10" />
+alt="LOONA/OEC Sweet Crazy Love" width="240" height="180" border="10" />
 </a>
 
 -----
