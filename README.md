@@ -1,5 +1,6 @@
 # Markdown-Cheat-sheet-in-Korean
-Check [Original Version](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
++ Check [Original Version](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
++ 깃헙에서 사용가능한 [이모지 목록](https://gist.github.com/rxaviers/7360908)
 
 ||**목차**||
 |:---:|:---:|:---:|
@@ -134,7 +135,9 @@ Some text to show that the reference links can follow later.
 참조 방식  
 ![alt text][로고1]
 
-[로고1]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "호보 텍스트 2"
+[로고1]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "호버 텍스트 2"
+
+
 ```
 
 코드
@@ -209,6 +212,8 @@ html을 표시할 때 사용됩니다.
 블록 나누기!
 
 > 이 블록은 매우 긴 줄이고 모든 글자가 블록안에 들어가고 있습니다. 계속 작성해서 이것이 길어도 모두를 위해 포장(?)할 수 있는지 확인하세요. 이건 *블록강조에* 전부 들어가고 있습니다.
+>> 이렇게 블록안에 블록을 둘 수도 있습니다.
+> 그렇습니다.
 ```
 > 블록 강조는 이메일 답장에서 자주 사용되는 양식입니다.
 > 이 줄도 이전의 블록 강조에 이어씁니다.
@@ -216,6 +221,8 @@ html을 표시할 때 사용됩니다.
 블록 나누기!
 
 > 이 블록은 매우 긴 줄이고 모든 글자가 블록안에 들어가고 있습니다. 계속 작성해서 이것이 길어도 모두를 위해 포장(?)할 수 있는지 확인하세요. 이건 **블록강조**에 전부 들어가고 있습니다.
+>> 이렇게 블록안에 블록을 둘 수도 있습니다.
+> 그렇습니다.
 
 html
 ----- 
@@ -307,7 +314,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 " target="_blank"><img src="http://img.youtube.com/vi/v78CPJVrl8E/0.jpg" 
 alt="LOONA/OEC Sweet Crazy Love" width="240" height="180" border="10" />
 </a>
-
------
 
 License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
