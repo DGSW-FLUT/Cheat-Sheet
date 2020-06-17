@@ -129,20 +129,20 @@ Alt-H2
 ----- 
 ```
 인라인 방식  
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "호버 텍스트 1")
+![alt text](https://avatars1.githubusercontent.com/u/42262208?s=400&u=de934bd4f4061dc50f641ace0ffdd63e70248db9&v=4 "인라인 방식")
 
 참조 방식  
 ![alt text][로고1]
 
-[로고1]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "호버 텍스트 2"
+[로고1]: https://avatars1.githubusercontent.com/u/42262208?s=400&u=de934bd4f4061dc50f641ace0ffdd63e70248db9&v=4 "참조 방식"
 ```
 인라인 방식  
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "호버 텍스트 1")
+![alt text](https://avatars1.githubusercontent.com/u/42262208?s=400&u=de934bd4f4061dc50f641ace0ffdd63e70248db9&v=4 "인라인 방식")
 
 참조 방식  
 ![alt text][로고1]
 
-[로고1]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "호버 텍스트 2"
+[로고1]: https://avatars1.githubusercontent.com/u/42262208?s=400&u=de934bd4f4061dc50f641ace0ffdd63e70248db9&v=4 "참조 방식"
 
 코드
 -----
