@@ -110,8 +110,6 @@ Alt-H2
 
 아니면 참조 링크 그 자체로 링크 할 수 있습니다. [네이버].
 
-Some text to show that the reference links can follow later.
-
 [네이버]: http://www.naver.com
 ```
 [인라인 링크](https://www.google.com)
