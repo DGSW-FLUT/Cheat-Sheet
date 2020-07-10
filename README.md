@@ -5,10 +5,11 @@
 공개된 강좌
 ---
 + [**Markdown**](/Markdown.md)
++ [**Regex**](/Regex.md)
 
 제작중인 강좌
 ---
-+ [**Regex**](/Regex.md)
+###### *없음*
 
 계획중인 강좌
 ---
